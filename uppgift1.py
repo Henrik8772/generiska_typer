@@ -13,4 +13,6 @@ class Box(Generic[T]):
 int_box = Box[int](10)
 str_box = Box[str]("Hej")
 
-int_box.getvalue()
+
+print(int_box.getvalue())
+print(str_box.getvalue())
