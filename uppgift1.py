@@ -14,5 +14,5 @@ int_box = Box[int](10)
 str_box = Box[str]("Hej")
 
 
-print(int_box.getvalue())
+print(int_box.getvalue().bit_count())
 print(str_box.getvalue())
